@@ -4,7 +4,7 @@ metadata:
   name: approval-task
 spec:
   params:
-    - default: 'http://approval-sumit.apps.cluster-5pcchgtrk.5pcck.sandbox1921.opentlc.com'
+    - default: 'http://approval-java-project.apps.ocp4.imss.com'
       description: Deployment route link
       name: form-link
       type: string
@@ -12,11 +12,11 @@ spec:
       description: 'secret name for SMTP server information (url, port, password)'
       name: server
       type: string
-    - default: imssdevops99@gmail.com
+    - default: narendralucky290@gmail.com
       description: sender email address
       name: sender
       type: string
-    - default: sumitbiswal98@gmail.com
+    - default: luckynarendra098@gmail.com
       description: recipient email addresses (space delimited list)
       name: recipients
       type: string
